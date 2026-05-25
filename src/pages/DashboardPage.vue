@@ -1,4 +1,5 @@
 <template>
+  
   <div class="h-screen w-screen flex flex-col bg-wa-dark theme-transition overflow-hidden">
     <AppNavbar :isDark="isDark" @toggle-theme="toggleTheme" />
 

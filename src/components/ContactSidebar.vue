@@ -1,4 +1,5 @@
 <template>
+  
   <aside class="flex flex-col bg-wa-sidebar theme-transition">
     <!-- Sidebar Header -->
     <div class="px-4 py-[14px] flex items-center gap-3 bg-wa-panel">

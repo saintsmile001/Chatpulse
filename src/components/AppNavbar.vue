@@ -65,6 +65,20 @@
               <p class="text-sm text-wa-text font-medium truncate mt-0.5">{{ userEmail }}</p>
             </div>
             <div class="py-1">
+
+
+              <router-link
+                to="/dashboard"
+                @click="showDropdown = false"
+                class="flex items-center gap-2.5 px-4 py-2.5 text-sm text-wa-text hover:bg-wa-hover transition-colors"
+              >
+                <svg class="w-4 h-4 text-wa-text-secondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 15a3 3 0 100-6 3 3 0 000 6z"/>
+                </svg>
+                Dashboard
+              </router-link>
+
+
               <router-link
                 to="/settings"
                 @click="showDropdown = false"
